@@ -1,0 +1,180 @@
+.header {
+	height: 200px;
+	background-color: green;
+	color: white;
+	text-align: center ;
+	background-image: url(jkm3.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.header img {
+	width: 100px;
+	height: 100px;
+}
+
+.hero-section {
+	height: 30px;
+	background-color: darkred;
+	color: white;
+	display: flex;
+}
+
+#body {
+	display: flex;
+}
+
+.left {
+	height: 950px;
+	width: 30%;
+	background-color: orange;
+	padding: 10px;
+}
+
+.right {
+	height: 950px;
+	width: 70%;
+	padding: 10px;
+}
+
+.header h2 {
+	padding-top: 0px;
+	font-size: 30px;
+	margin-top: 0px;
+}
+
+.header p {
+	font-size: 13px;
+	margin: 0px;
+	
+}
+
+.hero-section a{
+	color: white;
+	text-decoration: none;
+	margin-right: 10px;
+	margin-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+}
+
+h6 {
+	margin-top:5px;
+	margin-bottom: 15px;
+}
+
+.left p {
+	font-size: 12px;
+	margin-top: 0px;
+	padding-top: 0px;
+}
+
+.me {
+	height: 150px;
+	width: auto;
+	background-color: grey;
+	margin-top: 0px;
+	background-image: url(jkm6.jpg);
+	background-repeat: no-repeat;
+	background-attachment: center;
+	background-size: cover;
+}
+
+#mine div {
+	height: 150px;
+	width: auto;
+	background-color: grey;
+	margin-top: 10px;
+}
+
+.image1 {
+	background-image: url(jkm5.jpg);
+	background-attachment: center;
+	background-size: cover;
+}
+
+.image2 {
+	background-image: url(jkm7.jpg);
+	background-attachment: center;
+	background-size: cover;
+}
+
+.right p {
+	font-size: 13px;
+}
+
+#image {
+	display: flex;
+	flex-direction: row;
+}
+
+.head-image {
+	height: 200px;
+	width: 50%;
+	background-color: grey;
+	background-image: url(jkm8.jpg);
+	background-repeat: no-repeat;
+	background-attachment: center;
+	background-size: cover;
+	padding-bottom: 50px;
+	margin-right: 5px;
+}
+
+.leg-image {
+	height: 200px;
+	width: 50%;
+	background-color: grey;
+	background-image: url(jkm1.jpg);
+	background-repeat: no-repeat;
+	background-attachment: center;
+	background-size: cover;
+	padding-bottom: 50px;
+}
+
+#last-image {
+	display: flex;
+	flex-direction: row;
+}
+
+.image-1 {
+	height: 250px;
+	width: 50%;
+	background-color: grey;
+	margin-right: 5px;
+	background-image: url(jkm2.jpg);
+	background-attachment: center;
+	background-size: cover;
+}
+
+.image-2 {
+	height: 250px;
+	width: 50%;
+	background-color: grey;
+	background-image: url(jkm4.jpg);
+	background-attachment: center;
+	background-size: cover;
+}
+
+.footer {
+	height: 50px;
+	background-color: darkred;
+	font-size: 15px;
+	text-align: center;
+	color: white;
+}
+
+.footer p {
+	margin-top: 0px;
+	padding-top: 15px;
+}
+
+h3 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+ul {
+	font-size: 12px;
+	margin-top: 0px;
+}

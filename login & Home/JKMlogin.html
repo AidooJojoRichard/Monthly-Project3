@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Hotel Login</title>
+	<style>
+		
+		body {
+			background-position: center;
+			background-repeat: no-repeat;
+			background-image: url(jkm2.jpg);
+			background-attachment: fixed;
+			background-size: cover;
+		}
+		.main-container {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+
+		#login {
+			height: 300px;
+			background-color: darkred;
+			width: 600px;
+			margin-top: 150px;
+			display: flex;
+			flex-direction: row;
+		}
+
+		.left {
+			width: 40%;
+			height: 100%;
+			background-color: whitesmoke;
+			align-items: center;
+			justify-content: center;
+			display: flex;
+			border: 1px solid darkred;
+			border-right: 0px;
+		}
+
+		img src {
+			align-items: center;
+			justify-content: center;
+		}
+
+		.right {
+			width: 60%;
+			height: 100%;
+			background-color: white;
+			display: flex;
+			flex-direction: column;
+			border: 1px solid darkred;
+			border-left: 0px;
+		}
+
+		.title {
+			height: 50px;
+			background-color: orange;
+			justify-content: center;
+			align-items: center;
+			display: flex;
+			color: darkred;
+		}
+
+		.fullname , .Country ,.submit{
+			border-radius: 5px;
+			margin-top: 50px;
+			justify-content: center;
+			align-items: center;
+			display: flex;	
+		}
+
+		.fn-input input , .ct-input input{
+			outline: 0px;
+			border: 0px;
+			border-bottom: 1px solid lightgray;
+			font-size: 20px;
+		}
+
+		.submit input {
+			border: 0px;
+			border-radius: 3px;
+			font-size: 20px;
+			text-decoration: none;
+			background-color: darkred;
+			color: white;
+		}
+
+
+	</style>
+</head>
+<body>
+
+	<div class="main-container">
+		<div id="login">
+			<div class="left">
+				<img height="250px" width="250px" src="JKM.png">
+			</div>
+
+			<div class="right">
+				<div class="title"><h3>J.K.M Legacy Hotel & Event Centre</h3></div>
+				<div class="fullname">
+				<form>
+					<div class="fn-Head"><label>Fullname<span style="color:red">*</span></label></div>
+					<div class="fn-input"><input type="input" id="fullname" placeholder="Type Here"></div>
+				</form>
+				</div>
+				<div class="Country">
+				<form>
+					<div class="ct-Head"><label>Country<span style="color:red">*</span></label></div>
+					<div class="ct-input"><input type="input" id="country" placeholder="Eg:Ghana"></div>
+				</form>
+				</div>
+				<div class="submit"><a href="file:///C:/Users/phili/OneDrive/Desktop/CODETRAIN/BOOTSRAP/Monthyl%20Project-3/login%20&%20Home/jkmHome.html"><span><input type="submit" name="Submit"></span></a></div>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>

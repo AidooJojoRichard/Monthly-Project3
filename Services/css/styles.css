@@ -1,0 +1,61 @@
+.header {
+    background-color: #7e0e0e !important;
+    border-bottom: 5px solid gold;
+}
+
+.header .navbar-brand {
+    color: rgb(255 255 255 / 90%);
+}
+
+.img {
+    width: 1263px;
+    height: 600px;
+}
+
+body {
+    background-color: beige;
+}
+
+.footer {
+    background-color: darkred;
+    margin-top: 10px;
+    color: white;
+    border-top: 5px solid gold;
+}
+
+.foot h6 {
+    color: beige;
+    font-size: 15px;
+}
+
+.foot p {
+    color: gold;
+    font-size: 10px;
+}
+
+.foot h5 {
+    margin-bottom: 0px;
+    margin-top: 5px;
+}
+
+.nav2 {
+    background-color: darkred !important;
+    border-bottom: 5px solid gold;
+    border-top: 5px solid gold;
+}
+
+.nav2 a {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: darkred;
+    background-color: gold;
+}
+
+.navbar-light .navbar-brand {
+    color: rgb(255 255 255 / 90%);
+}
+
